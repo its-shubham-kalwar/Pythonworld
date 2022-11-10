@@ -1,0 +1,63 @@
+# 1. Write a python script to take your name as input from the user and then print it.
+# print(input("enter your name: "))
+
+
+# 2. Write a python script to take input from the user. Input must be a number.
+# print(int(input("Enter a number: ")))
+
+
+# 3. Write a python script which takes two numbers from the user, then calculate their sum
+# and display the result.
+# a = int(input("Enter a number: "))
+# b = int(input("Enter a number: "))
+# sum = a+b
+# print(sum)
+
+
+# 4. Write a python script which takes the radius from the user and display area of a circle.
+# rad = int(input("Enter a number"))
+# area = rad * rad * 3.14
+# print(area)
+
+
+# 5. Write a python script to calculate the square of a number. Number is entered by the user.
+# n = int(input("Enter a number: "))
+# square = n**2
+# print(square)
+
+
+# 6. Write a python script to calculate the area of Triangle. Number is entered by the user.
+# hight = int(input("Enter a number: "))
+# base = int(input("Enter a number: "))
+# area = (hight*base)/2
+# print(area)
+
+
+# 7. Write a python script to calculate average of three numbers, entered by the user.
+# a = int(input("Enter a numbe"))
+# b = int(input("Enter a numbe"))
+# c = int(input("Enter a numbe"))
+# avg = (a+b+c)/3
+# print(avg)
+
+
+# 8. Write a python script to calculate simple interest.
+# P = int(input("Enter amount: "))
+# R = int(input("Enter rate: "))
+# T = int(input("Enter time: "))
+# SI = (P*R*T)/100
+# print(SI)
+
+
+# 9. Write a python script to calculate the volume of a cuboid.
+# length = int(input("Enter a length: "))
+# width = int(input("Enter a width: "))
+# hight = int(input("Enter a hight: "))
+# vol = length*width*hight
+# print(vol)
+
+# 10. Write a python script to calculate area of a rectangle.
+# length = int(input("Enter a length: "))
+# width = int(input("Enter a width: "))
+# area = length*width
+# print(area)
