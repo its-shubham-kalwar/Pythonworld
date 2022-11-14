@@ -38,11 +38,17 @@
 
 
 # 5. Write a python script to print two given words in dictionary order.
-
+# print("Enter two words: ")
+# a,b=input(),input()
+# print((a,b) if a>b else (b,a))
 
 
 # 6. Write a python script to check whether a given number is a three digit number or not.
-
+# a = int(input("Enter a number: "))
+# if 99<a<1000 :
+    # print("Number is three digit")
+# else:
+    # print("Number is not three digit")
 
 
 # 7. Write a python script to check whether a given number is positive, negative or zero.
@@ -57,11 +63,24 @@
 
 # 8. Write a python script to check whether a given quadratic equation has two real &
 # distinct roots, real & equal roots or imaginary roots.
-
+# print("Enter value of a,b and c ")
+# a,b,c = int(input()),int(input()),int(input())
+# d = (b**2)-(4*a*c)
+# if d>0:
+    # print("Real and distinct roots")
+# elif d==0:
+    # print("Real and equal roots")
+# else :
+    # print("Imaginary roots")
 
 
 # 9. Write a python script to check whether a given year is a leap year or not.
-
+# print("Enter year number: ")
+# year = int(input())
+# if year%400==0 or year%100!=0 and year%4==0:
+    # print("Leap year")
+# else :
+    # print("Not Leap year")
 
 
 # 10. Write a python script to print greater among three numbers. Print number only once
@@ -91,3 +110,5 @@
 
 # 12. Write a python script to accept one complex number from the user and display the
 # greater number between real part and imaginary part.
+# a = complex(input("Enter a complex number: "))
+# print((a.real) if a.real > a.imag else (a.imag))
