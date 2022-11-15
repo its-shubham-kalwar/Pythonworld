@@ -1,0 +1,81 @@
+        #   Assignment - 10 Full Stack Web Development using Python MySirG
+
+                                #   For loop and range
+
+
+
+# 1. Write a python script to print MySirG N times on the screen.
+# n = int(input("Enter a number: "))
+# for i in range(n):
+    # print("MySirG")
+
+
+# 2. Write a python script to print first N natural numbers.
+# n = int(input("Enter a number: "))
+# for i in range(n):
+    # print(i)
+
+
+# 3. Write a python script to print first N natural numbers in reverse order.
+# for i in range(10,0,-1):
+    # print(i)
+
+
+# 4. Write a python script to print first N odd natural numbers.
+# start = int(input("Enter a number: "))
+# end = int(input("Enter a number: "))
+# for i in range(start , end , + 1):
+    # if i%2!=0:
+        # print(i)
+
+
+# 5. Write a python script to print first N odd natural numbers in reverse order.
+# start = int(input("Enter a number: "))
+# end = int(input("Enter a number: "))
+# for i in range(end,start,-1):
+    # if i%2!=0:
+        # print(i)
+
+# end = int(input("Enter end number: "))
+# start = int(input("Enter start number: "))
+# for i in range(end,start,-1):
+    # if i%2!=0:
+        # print(i)
+
+
+# 6. Write a python script to print first N even natural numbers.
+# start = int(input("Enter a number: "))
+# end = int(input("Enter a number: "))
+# for i in range(start,end,+1):
+    # if i%2==0:
+        # print(i)
+
+
+# 7. Write a python script to print first N even natural numbers in reverse order.
+# end = int(input("Enter end number: "))
+# start = int(input("Enter start number: "))
+# for i in range(end,start,-1):
+    # if i%2==0:
+        # print(i)
+
+
+# 8. Write a python script to print squares of first N natural numbers.
+# start = int(input("Enter a number: "))
+# end = int(input("Enter a number: "))
+# for i in range(start,end,+1):
+    # print(i**2)
+
+
+# 9. Write a python script to print cubes of first N natural numbers.
+# start = int(input("Enter a number: "))
+# end = int(input("Enter a number: "))
+# for i in range(start,end,+1):
+    # print(i**3)
+
+
+# 10. Write a python script to print first 10 multiples of N.
+# start = int(input("Enter a number: "))
+# end = int(input("Enter a number: "))
+# for i in range(start,end,+1):
+    # if i%10==0:
+        # print(i)
